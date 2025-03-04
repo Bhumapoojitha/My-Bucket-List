@@ -1,0 +1,52 @@
+body {
+    background-image: url("");
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background: linear-gradient(to left, black, #e9ecef);
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, black,#e9ecef);
+    color:white;
+    padding: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bucket-list {
+    padding: 20px;
+    max-width: 500px;
+    margin:auto;
+}
+
+.bucket-list li {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.bucket-list li:hover {
+    background: #d4edda;
+    transform: scale(1.05);
+}
+
+.icon {
+    margin-right: 5%;
+}
+
+footer {
+    margin-top: 20px;
+    background: linear-gradient(to right,black,#e9ecef);
+    color: white;
+    padding: 10px;
+    
+}
