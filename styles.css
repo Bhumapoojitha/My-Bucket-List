@@ -1,15 +1,14 @@
 body {
-    background-image: url("");
     font-family: Arial, sans-serif;
     margin:0;
     padding:0;
-    background: linear-gradient(to left, black, #e9ecef);
+    background: linear-gradient(to left, #000000, #e9ecef);
     text-align: center;
 }
 
 header {
-    background: linear-gradient(to right, black,#e9ecef);
-    color:white;
+    background: linear-gradient(to right, #000000,#e9ecef);
+    color:#ffffff;
     padding: 20px ;
     font-size: 25px;
     font-weight: bold;
@@ -22,7 +21,7 @@ header {
 }
 
 .bucket-list li {
-    background: white;
+    background: #ffffff;
     padding: 15px;
     margin: 15px 0;
     border-radius: 8px;
@@ -45,8 +44,8 @@ header {
 
 footer {
     margin-top: 20px;
-    background: linear-gradient(to right,black,#e9ecef);
-    color: white;
+    background: linear-gradient(to right, #000000, #e9ecef);
+    color: #ffffff;
     padding: 10px;
     
 }
